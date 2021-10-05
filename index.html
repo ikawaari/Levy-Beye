@@ -1,51 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-    crossorigin="anonymous"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+          crossorigin="anonymous"
     />
 
-  </head>
+</head>
 
-  <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <header id="header">
-      <input type="checkbox" id="check"/>
-      <label for="check" class="checkbtn">
-        <i class="fa fa-bars"></i>
-      </label>
+        <input type="checkbox" id="check"/>
+        <label for="check" class="checkbtn">
+            <i class="fa fa-bars"></i>
+        </label>
 
-      <img alt="header image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" id="header-img"/>
-      <nav id="nav-bar">
-          <ul>
-              <li>
-                  <a class="nav-link" href="#features">Features</a>
-              </li>
-              <li>
-                  <a class="nav-link" href="#how_it_works">How It Works</a>
-              </li>
-              <li>
-                  <a class="nav-link" href="#pricing">Pricing</a>
-              </li>
-          </ul>
-      </nav>
+        <img alt="header image"
+             src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" id="header-img"/>
+        <nav id="nav-bar">
+            <ul>
+                <li>
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#how_it_works">How It Works</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <div class="handcrafted">
-      <h2>Handcrafted, home-made masterpieces</h2>
-      <form id="form" action="https://www.freecodecamp.com/email-submit">
-          <input  id="email" type="email" placeholder="Enter your email adress" required> <br>
-          <input id="submit" type="submit" value="submit">
-      </form>
-  </div>
-  <br>
-  <br>
-  <br>
-    <script  src="js/index.js"></script>
-  </body>
+        <h2>Handcrafted, home-made masterpieces</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input id="email" type="email" placeholder="Enter your email adress" required> <br>
+            <input id="submit" type="submit" value="submit">
+        </form>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <section id="features">
+        <div class="sub_feature">
+            <i class="fa fa-3x fa-fire"></i>
+            <div>
+                <h2>Premium Materials</h2>
+                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your
+                    purchase.</p>
+            </div>
+        </div>
+
+        <div class="sub_feature">
+            <i class="fa fa-3x fa-truck"></i>
+            <div>
+                <h2>Fast Shipping</h2>
+                <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free
+                    returns if you are not satisfied.</p>
+            </div>
+        </div>
+
+        <div class="sub_feature">
+            <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+            <div>
+                <h2>Quality Assurance</h2>
+                <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the
+                    pitch of your instrument.</p>
+            </div>
+        </div>
+    </section>
+    <script src="js/index.js"></script>
+</body>
 </html>

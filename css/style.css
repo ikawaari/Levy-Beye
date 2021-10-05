@@ -70,6 +70,19 @@ a.active,a:hover{
   #check{
     display: none;
   }
+  
+  #features {
+    
+    width: 50%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sub_feature{
+   display: flex;
+
+}
 
 @media (max-width: 800px) {
     #nav-bar{
