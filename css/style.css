@@ -87,3 +87,27 @@ a.active,a:hover{
         left: 0;
     }
 }
+
+.handcrafted{
+    text-align: center;
+    margin-top: 120px;
+    padding: 20px;
+    border-radius: 16px;
+    background: #cbb4d4;
+    width: 50%;
+    margin-left:auto;
+    margin-right: auto;  
+    border: 1px hidden;      
+}
+#email{
+    padding: 4px 30px;
+    border-radius: 5px;
+}
+#submit{
+    margin-top: 10px;
+    padding: 3px 15px;
+    border:1px hidden;
+    border-radius: 3px;
+    background-color: rgb(92, 141, 6);
+    color: white;
+}
