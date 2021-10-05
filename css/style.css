@@ -126,7 +126,6 @@ a.active,a:hover{
 }
 
 #features {
-    
     width: 50%;
     margin-left:auto;
     margin-right: auto;
@@ -163,4 +162,36 @@ i{
    border-radius: 50px;
    background:#403A3E;
    box-shadow:  33px 33px 66px #1ea5b7,
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    width: 40%;
+    text-align: end;
+    margin-left: 40%;
+}
+
+footer ul{
+    list-style: none;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:0;
+}  
+button{
+   border: 1px hidden;
+   border-radius: 10px;
+   padding: 10px 20px;
+   background-color: #11e261; 
+}
+button:hover{
+    cursor: pointer;
+}
+footer a{
+    text-decoration: none;
+    color:black;
+    text-align: end;
+    color:snow;
 }
