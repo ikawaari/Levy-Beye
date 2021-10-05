@@ -84,7 +84,7 @@ a.active,a:hover{
 
 }
 
-/*@media (max-width: 650px) {
+@media (max-width: 650px) {
     nav > ul {
         flex-direction: column;
     }
@@ -145,7 +145,7 @@ a.active,a:hover{
     #check:checked ~ nav{
         left: 0;
     }
-} */
+} 
 
 .handcrafted{
     text-align: center;
@@ -170,7 +170,6 @@ a.active,a:hover{
     background-color: rgb(92, 141, 6);
     color: white;
 }
-
 #features {
     width: 50%;
     margin-left:auto;
@@ -254,5 +253,11 @@ footer a{
          height: 100px;
      }
 }
+@media screen and (min-width: 900px) {
+    #features{
+      display: flex;
+      flex-direction: row;
+    }
+  }
 
 
