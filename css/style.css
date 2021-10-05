@@ -124,3 +124,43 @@ a.active,a:hover{
     background-color: rgb(92, 141, 6);
     color: white;
 }
+
+#features {
+    
+    width: 50%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sub_feature{
+   display: flex;
+
+}
+i{
+ color:chocolate;   
+  margin-right: 40px;
+}
+#how_it_works{
+   width: 50%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#pricing{
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-gap: 25px;
+   width:75%;
+   margin-left:auto;
+   margin-right: auto;
+   text-align: center;
+}
+.price_box{
+   border: 1px hidden;
+   padding-bottom: 15px;
+   border-radius: 50px;
+   background:#403A3E;
+   box-shadow:  33px 33px 66px #1ea5b7,
+}
