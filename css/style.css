@@ -84,7 +84,7 @@ a.active,a:hover{
 
 }
 
-@media (max-width: 650px) {
+/*@media (max-width: 650px) {
     nav > ul {
         flex-direction: column;
     }
@@ -145,7 +145,7 @@ a.active,a:hover{
     #check:checked ~ nav{
         left: 0;
     }
-} 
+} */
 
 .handcrafted{
     text-align: center;
@@ -193,6 +193,10 @@ i{
     margin-top: 80px;
     margin-bottom: 80px;
 }
+#video{
+    width:600px; 
+    height:300px;
+}
 #pricing{
    display: grid;
    grid-template-columns: auto auto auto;
@@ -239,6 +243,16 @@ footer a{
     color:black;
     text-align: end;
     color:snow;
+}
+
+@media screen and (max-width: 375px){
+    body{
+        background-image: linear-gradient(yellow,orange,blue);
+    }
+     #video{
+         width: 150px;
+         height: 100px;
+     }
 }
 
 
