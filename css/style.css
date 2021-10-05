@@ -84,7 +84,7 @@ a.active,a:hover{
 
 }
 
-@media (max-width: 800px) {
+@media screen and(max-width: 800px) {
     #nav-bar{
         position: fixed;
         width: 100%;
@@ -99,7 +99,7 @@ a.active,a:hover{
     #check:checked ~ nav{
         left: 0;
     }
-}
+} 
 
 .handcrafted{
     text-align: center;
