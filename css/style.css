@@ -1,0 +1,41 @@
+body{
+    background-image:url(image/Lawrencium.jpg);
+    color:snow;
+}
+.container{
+    position: relative;
+}
+header{
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    top:0;
+    border:1px hidden;
+    background-color: blanchedalmond;
+    width:100%;
+    display: flex;
+    min-height: 70px;
+}
+#header-img{
+    max-width: 400px;
+    margin: 0;
+}
+#nav-bar{
+    display:grid;
+    grid-template-columns: auto auto auto;
+}
+#nav-bar ul{
+    list-style: none;
+    text-align: end;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:50px;
+}
+#nav-bar li{
+    text-decoration: none;
+    color:snow;
+}
+.nav-link{
+    text-decoration: none;
+    color:black;
+}
